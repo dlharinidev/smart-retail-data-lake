@@ -1,0 +1,20 @@
+# Credentials and environment files
+.env
+.env.*
+!.env.example
+.aws/
+*credentials*
+*secret*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Generated Parquet data
+curated/
+
+# Temporary files
+*.log
+.DS_Store
